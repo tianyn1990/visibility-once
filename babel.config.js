@@ -17,6 +17,7 @@ module.exports = (api) => {
                 // https://www.babeljs.cn/docs/plugins/preset-env/
                 '@babel/preset-env',
                 {
+                    corejs: 2,
                     targets: [
                         '> 0.25% in CN',
                         'last 2 versions',
