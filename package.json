@@ -1,6 +1,6 @@
 {
   "name": "visibility-once",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Wrapper for the Page Visibility API, and execute callback function once. It's no need to stop/unbind compared with Visibility.js. Otherwise, you can set a number to limit max callback function(use a Queue).",
   "main": "./dist/index.js",
   "lint-staged": {
@@ -9,6 +9,14 @@
       "git add"
     ]
   },
+  "files": [
+    "dist",
+    "example",
+    "lib",
+    "package.json",
+    "changelog.md",
+    "LICENSE"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -19,9 +27,10 @@
   },
   "scripts": {
     "build": "rollup --config rollup.config.js",
+    "build:babel6": "rollup --config rollup-babel6.config.js",
     "eslint": "eslint \"./src/**/*.js\" --ignore-path ./.eslintignore",
     "eslint:fix": "npm run eslint -- --fix",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build && npm run build:babel6"
   },
   "repository": {
     "type": "git",
