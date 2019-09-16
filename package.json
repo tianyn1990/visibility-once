@@ -1,0 +1,27 @@
+{
+  "name": "visibility-once",
+  "version": "0.1.0",
+  "description": "Wrapper for the Page Visibility API, and execute callback function once. It's no need to stop/unbind compared with Visibility.js. Otherwise, you can set a number to limit max callback function(use a Queue).",
+  "main": "./dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianyn1990/visibility-once.git"
+  },
+  "keywords": [
+    "visibility",
+    "javascript",
+    "Page Visibility API"
+  ],
+  "author": "tianyn1990",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tianyn1990/visibility-once/issues"
+  },
+  "homepage": "https://github.com/tianyn1990/visibility-once#readme"
+}
