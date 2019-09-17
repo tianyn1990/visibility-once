@@ -1,6 +1,6 @@
 {
   "name": "visibility-once",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Wrapper for the Page Visibility API, and execute callback function once. It's no need to stop/unbind compared with Visibility.js. Otherwise, you can set a number to limit max callback function(use a Queue).",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
