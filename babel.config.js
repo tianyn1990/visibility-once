@@ -21,8 +21,8 @@ module.exports = (api) => {
                     targets: [
                         '> 0.25% in CN',
                         'last 2 versions',
-                        // 'ios >= 6',
-                        // 'android >= 4',
+                        'ios >= 6',
+                        'android >= 4',
                         'ie >= 9',
                         'not dead',
                     ],
